@@ -103,25 +103,52 @@ Cleaning Team
 The `Dispatcher` depends on the `RouteEngine` interface, not directly on `Graph`.
 Member 9 can implement `RouteEngine` by wrapping their `Graph` class.
 
+## Project Structure
+
+```
+CLEANING-SERVICE--DSA-2/
+├── src/
+│   ├── main/
+│   │   └── java/                          # Source files (default package)
+│   │       ├── Priority.java
+│   │       ├── RequestStatus.java
+│   │       ├── CleaningRequest.java
+│   │       ├── Heap.java
+│   │       ├── PriorityQueueManager.java
+│   │       ├── RouteEngine.java
+│   │       └── Dispatcher.java
+│   ├── test/
+│   │   └── java/                          # JUnit 5 tests
+│   │       ├── HeapTest.java
+│   │       ├── PriorityQueueManagerTest.java
+│   │       └── DispatcherTest.java
+│   └── demo/
+│       └── java/                          # Manual test runner
+│           └── HeapDispatchDemo.java
+├── lib/                                   # JUnit 5 jars
+├── README.md
+├── (existing team files remain at root)
+```
+
 ## How to run
 
 ### Compile all module files:
 ```bash
-javac Priority.java RequestStatus.java CampusLocation.java CleaningRequest.java Heap.java PriorityQueueManager.java RouteEngine.java Dispatcher.java
+javac -d . src\main\java\*.java
 ```
 
 ### Run the demo/test runner:
 ```bash
-java HeapDispatchDemo
+java -cp ".;src\main\java" HeapDispatchDemo
 ```
 
 ### Run JUnit 5 tests (requires JUnit 5 jars in `lib/`):
 ```bash
 # Compile
-javac -cp "lib/*" HeapTest.java PriorityQueueManagerTest.java DispatcherTest.java
+javac -cp "lib/*;src\main\java" -d . src\test\java\*.java
 
 # Run via JUnit Console
-java -cp "lib/junit-platform-console-standalone-1.10.0.jar;." org.junit.platform.console.ConsoleLauncher --class-path="lib/*;." --select-class=HeapTest --select-class=PriorityQueueManagerTest --select-class=DispatcherTest
+java -cp "lib/junit-platform-console-standalone-1.10.0.jar;.;src\main\java" org.junit.platform.console.ConsoleLauncher --class-path="lib/*;.;src\main\java" --select-class=HeapTest --select-class=PriorityQueueManagerTest --select-class=DispatcherTest
 ```
 
 ## Test Results
