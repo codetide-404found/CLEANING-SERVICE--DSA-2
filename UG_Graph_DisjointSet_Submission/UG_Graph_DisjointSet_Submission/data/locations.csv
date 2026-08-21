@@ -1,0 +1,56 @@
+locationId,name,area,type,mapX,mapY
+1,Main University Gate,Main Campus,Entrance,0,0
+2,Legon Police Station,Main Campus,Security,1,2
+3,Jones Quartey Building (JQB),Central Campus,Lecture Hall,5,6
+4,Institute of African Studies,Central Campus,Institute,2,10
+5,Balme Library,Central Campus,Library,8,12
+6,University of Ghana Bookshop,Central Campus,Service,11,13
+7,K.A. Busia Lecture Theatre (KAB),Central Campus,Lecture Hall,16,13
+8,School of Law,Central Campus,Academic,18,15
+9,International Programmes Office,Central Campus,Academic,18,18
+10,School of Engineering Sciences,Central Campus,Academic,20,18
+11,Department of Computer Science,Central Campus,Academic,22,20
+12,Department of Mathematics,Central Campus,Academic,21,22
+13,Department of Statistics,Central Campus,Academic,23,22
+14,Department of Physics,Central Campus,Academic,12,18
+15,Department of Chemistry,Central Campus,Academic,16,19
+16,Department of Earth Science,Central Campus,Academic,19,21
+17,Department of Geography & Resource Development,Central Campus,Academic,20,23
+18,Department of Political Science,Central Campus,Academic,25,24
+19,Department of Psychology,Central Campus,Academic,26,25
+20,Department of Information Studies,Central Campus,Academic,27,24
+21,N Block,Central Campus,Lecture Hall,25,22
+22,New N Block,Central Campus,Lecture Hall,29,21
+23,K. Folson Building,Central Campus,Academic,30,24
+24,University of Ghana Computing Systems (UGCS),Central Campus,ICT,26,19
+25,GCB Lecture Building,Central Campus,Lecture Hall,29,19
+26,Cedi Conference Centre,Central Campus,Conference,27,17
+27,University Administration (Registry),Central Campus,Administration,12,16
+28,Great Hall,Central Campus,Assembly,10,10
+29,Commonwealth Hall,Central Campus,Residence Hall,7,3
+30,Legon Hall,Central Campus,Residence Hall,6,2
+31,Volta Hall,Central Campus,Residence Hall,4,4
+32,Akuafo Hall,Central Campus,Residence Hall,9,3
+33,Mensah Sarbah Hall,Central Campus,Residence Hall,13,3
+34,Legon Hall Annex,Central Campus,Residence Hall,5,0
+35,Volta Hall Annex,Central Campus,Residence Hall,3,4
+36,Mensah Sarbah Hall Annex,Central Campus,Residence Hall,13,6
+37,Akuafo Hall Annex,Central Campus,Residence Hall,10,6
+38,Jubilee Hall,Central Campus,Residence Hall,17,3
+39,International Student Hostel,Central Campus,Hostel,21,6
+40,Valco Trust Hostel,Central Campus,Hostel,25,7
+41,Dr. Hilla Limann Hall,Central Campus,Residence Hall,29,9
+42,Alexander Adum Kwapong Hall,Central Campus,Residence Hall,32,10
+43,Jean Nelson Aka Hall,Central Campus,Residence Hall,34,12
+44,Elizabeth Frances Sey Hall,Central Campus,Residence Hall,24,9
+45,University of Ghana Hospital,Central Campus,Health,33,17
+46,University of Ghana Medical Centre,Central Campus,Health,31,15
+47,Central Cafeteria,Central Campus,Food Service,14,5
+48,SRC Union Building,Central Campus,Student Facility,12,4
+49,Athletic Oval,Central Campus,Sports,14,7
+50,UG Sports Stadium,Central Campus,Sports,15,1
+51,UG Fire Station,Central Campus,Emergency,18,1
+52,UG Guest Centre,Central Campus,Guest Facility,25,13
+53,Night Market,Central Campus,Food Service,29,12
+54,Legon Mosque,Central Campus,Religious,31,13
+55,Botanical Gardens,Central Campus,Recreation,36,19
