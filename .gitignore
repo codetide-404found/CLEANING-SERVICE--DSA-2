@@ -1,0 +1,41 @@
+# Build artifacts
+*.class
+*.jar
+*.war
+*.ear
+
+# Compiled class files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Build output
+bin/
+build/
+target/
+out/
+dist/
+
+# Logs
+*.log
+logs/
+
+# Test reports
+test-results/
+*.xml
+
+# Dependency directories
+lib/
