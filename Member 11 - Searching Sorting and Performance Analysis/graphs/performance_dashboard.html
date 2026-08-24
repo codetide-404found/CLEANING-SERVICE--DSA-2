@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>Member 11 - Algorithm Efficiency Dashboard</title>
+<style>
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #0f0f17; color: #cdd6f4; margin: 0; padding: 30px; }
+h1, h2 { color: #89b4fa; }
+.card { background: #1e1e2e; border-radius: 12px; padding: 24px; margin-bottom: 30px; box-shadow: 0 4px 20px rgba(0,0,0,0.5); }
+table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+th, td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #313244; }
+th { background-color: #181825; color: #f5e0dc; }
+tr:hover { background-color: #313244; }
+.img-container { text-align: center; margin: 20px 0; }
+img { max-width: 100%; border-radius: 8px; border: 1px solid #45475a; }
+</style>
+</head>
+<body>
+<h1>Ghana Smart Service Operations Optimizer</h1>
+<h2>Member 11: Searching, Sorting & Empirical Performance Analysis</h2>
+<div class='card'>
+<h3>1. Linear Search vs Binary Search Empirical Comparison</h3>
+<div class='img-container'><img src='search_performance.svg' alt='Search Performance Chart'/></div>
+<table>
+<tr><th>Algorithm</th><th>Input Size (N)</th><th>Avg Comparisons</th><th>Avg Runtime (ms)</th><th>Memory (KB)</th></tr>
+<tr><td>Linear Search</td><td>100</td><td>51</td><td>0.0031</td><td>0</td></tr>
+<tr><td>Binary Search</td><td>100</td><td>6</td><td>0.0011</td><td>0</td></tr>
+<tr><td>Linear Search</td><td>500</td><td>251</td><td>0.0210</td><td>0</td></tr>
+<tr><td>Binary Search</td><td>500</td><td>9</td><td>0.0013</td><td>0</td></tr>
+<tr><td>Linear Search</td><td>1000</td><td>501</td><td>0.0225</td><td>0</td></tr>
+<tr><td>Binary Search</td><td>1000</td><td>9</td><td>0.0011</td><td>0</td></tr>
+<tr><td>Linear Search</td><td>5000</td><td>2501</td><td>0.0630</td><td>0</td></tr>
+<tr><td>Binary Search</td><td>5000</td><td>11</td><td>0.0011</td><td>0</td></tr>
+<tr><td>Linear Search</td><td>10000</td><td>5001</td><td>0.1260</td><td>0</td></tr>
+<tr><td>Binary Search</td><td>10000</td><td>12</td><td>0.0018</td><td>0</td></tr>
+</table>
+</div>
+<div class='card'>
+<h3>2. Selection, Insertion, Merge & Quick Sort Empirical Benchmarks</h3>
+<div class='img-container'><img src='sorting_performance.svg' alt='Sorting Performance Chart'/></div>
+<table>
+<tr><th>Algorithm</th><th>Input Size (N)</th><th>Comparisons</th><th>Swaps</th><th>Shifts/Copies</th><th>Max Depth</th><th>Runtime (ms)</th></tr>
+<tr><td>Selection Sort</td><td>100</td><td>4950</td><td>94</td><td>0</td><td>0</td><td>0.2346</td></tr>
+<tr><td>Insertion Sort</td><td>100</td><td>2629</td><td>0</td><td>2631</td><td>0</td><td>0.1724</td></tr>
+<tr><td>Merge Sort</td><td>100</td><td>543</td><td>0</td><td>1444</td><td>7</td><td>0.1233</td></tr>
+<tr><td>Quick Sort</td><td>100</td><td>533</td><td>371</td><td>0</td><td>10</td><td>0.1070</td></tr>
+<tr><td>Selection Sort</td><td>500</td><td>124750</td><td>492</td><td>0</td><td>0</td><td>1.6101</td></tr>
+<tr><td>Insertion Sort</td><td>500</td><td>61730</td><td>0</td><td>61734</td><td>0</td><td>1.8989</td></tr>
+<tr><td>Merge Sort</td><td>500</td><td>3857</td><td>0</td><td>9476</td><td>9</td><td>0.1552</td></tr>
+<tr><td>Quick Sort</td><td>500</td><td>3998</td><td>2572</td><td>0</td><td>15</td><td>0.1193</td></tr>
+<tr><td>Selection Sort</td><td>1000</td><td>499500</td><td>993</td><td>0</td><td>0</td><td>0.7180</td></tr>
+<tr><td>Insertion Sort</td><td>1000</td><td>246282</td><td>0</td><td>246287</td><td>0</td><td>0.5910</td></tr>
+<tr><td>Merge Sort</td><td>1000</td><td>8695</td><td>0</td><td>20952</td><td>10</td><td>0.2960</td></tr>
+<tr><td>Quick Sort</td><td>1000</td><td>9040</td><td>5481</td><td>0</td><td>17</td><td>0.1735</td></tr>
+<tr><td>Selection Sort</td><td>5000</td><td>12497500</td><td>4989</td><td>0</td><td>0</td><td>10.0201</td></tr>
+<tr><td>Insertion Sort</td><td>5000</td><td>6266604</td><td>0</td><td>6266608</td><td>0</td><td>5.5474</td></tr>
+<tr><td>Merge Sort</td><td>5000</td><td>55247</td><td>0</td><td>128616</td><td>13</td><td>0.5519</td></tr>
+<tr><td>Quick Sort</td><td>5000</td><td>60776</td><td>35471</td><td>0</td><td>22</td><td>0.4428</td></tr>
+<tr><td>Selection Sort</td><td>10000</td><td>49995000</td><td>9992</td><td>0</td><td>0</td><td>35.1105</td></tr>
+<tr><td>Insertion Sort</td><td>10000</td><td>25081335</td><td>0</td><td>25081343</td><td>0</td><td>19.9580</td></tr>
+<tr><td>Merge Sort</td><td>10000</td><td>120463</td><td>0</td><td>277232</td><td>14</td><td>1.3649</td></tr>
+<tr><td>Quick Sort</td><td>10000</td><td>135012</td><td>75214</td><td>0</td><td>23</td><td>0.9362</td></tr>
+</table>
+</div>
+</body>
+</html>
