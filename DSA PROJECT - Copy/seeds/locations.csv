@@ -1,0 +1,56 @@
+locationId,name,area,type,latitude,longitude
+1001,UGCS,University of Ghana,Building,5.037037,-0.091091
+1002,Balme Library,University of Ghana,Building,5.037074,-0.091182
+1003,Great Hall,University of Ghana,Building,5.037111,-0.091273
+1004,Legon Hall,University of Ghana,Building,5.037148,-0.091364
+1005,Commonwealth Hall,University of Ghana,Building,5.037185,-0.091455
+1006,Akuafo Hall,University of Ghana,Building,5.037222,-0.091546
+1007,Mensah Sarbah Hall,University of Ghana,Building,5.037259,-0.091637
+1008,Volta Hall,University of Ghana,Building,5.037296,-0.091728
+1009,University Hospital,University of Ghana,Building,5.037333,-0.091819
+1010,Night Market,University of Ghana,Building,5.037370,-0.091910
+1011,JQB,University of Ghana,Building,5.037407,-0.092001
+1012,Pentagon Hostel,University of Ghana,Building,5.037444,-0.092092
+1013,Hilla Limann Hall,University of Ghana,Building,5.037481,-0.092183
+1014,Banking Square,University of Ghana,Building,5.037518,-0.092274
+1015,School of Engineering Sciences,University of Ghana,Building,5.037555,-0.092365
+1016,Athletic Oval,University of Ghana,Building,5.037592,-0.092456
+1017,Department of Statistics,University of Ghana,Building,5.037629,-0.092547
+1018,Department of Mathematics,University of Ghana,Building,5.037666,-0.092638
+1019,Business School,University of Ghana,Building,5.037703,-0.092729
+1020,University Guest Centre,University of Ghana,Building,5.037740,-0.092820
+1021,Diaspora Halls,University of Ghana,Building,5.037777,-0.092911
+1022,Elizabeth Sey Hall,University of Ghana,Building,5.037814,-0.093002
+1023,Institute of African Studies,University of Ghana,Building,5.037851,-0.093093
+1024,Noguchi Memorial Institute,University of Ghana,Building,5.037888,-0.093184
+1025,School of Law,University of Ghana,Building,5.037925,-0.093275
+1026,School of Public Health,University of Ghana,Building,5.037962,-0.093366
+1027,School of Pharmacy,University of Ghana,Building,5.037999,-0.093457
+1028,School of Nursing,University of Ghana,Building,5.038036,-0.093548
+1029,Graduate School,University of Ghana,Building,5.038073,-0.093639
+1030,Institute of Statistical Social and Economic Research,University of Ghana,Building,5.038110,-0.093730
+1031,Central Cafeteria,University of Ghana,Building,5.038147,-0.093821
+1032,University Basic School,University of Ghana,Building,5.038184,-0.093912
+1033,UG Stadium,University of Ghana,Building,5.038221,-0.094003
+1034,Sports Directorate,University of Ghana,Building,5.038258,-0.094094
+1035,Fire Station,University of Ghana,Building,5.038295,-0.094185
+1036,Campus Security Office,University of Ghana,Building,5.038332,-0.094276
+1037,Physical Development Office,University of Ghana,Building,5.038369,-0.094367
+1038,University Clinic,University of Ghana,Building,5.038406,-0.094458
+1039,Main Gate,University of Ghana,Building,5.038443,-0.094549
+1040,West Gate,University of Ghana,Building,5.038480,-0.094640
+1041,East Gate,University of Ghana,Building,5.038517,-0.094731
+1042,Volta River Authority Hostel,University of Ghana,Building,5.038554,-0.094822
+1043,Bush Canteen,University of Ghana,Building,5.038591,-0.094913
+1044,Engineering Block,University of Ghana,Building,5.038628,-0.095004
+1045,Computer Systems Laboratory,University of Ghana,Building,5.038665,-0.095095
+1046,Banking Area,University of Ghana,Building,5.038702,-0.095186
+1047,SRC Office,University of Ghana,Building,5.038739,-0.095277
+1048,International Programmes Office,University of Ghana,Building,5.038776,-0.095368
+1049,School of Agriculture,University of Ghana,Building,5.038813,-0.095459
+1050,Botanical Gardens,University of Ghana,Building,5.038850,-0.095550
+1051,Medical School,University of Ghana,Building,5.038887,-0.095641
+1052,Dental School,University of Ghana,Building,5.038924,-0.095732
+1053,College of Health Sciences,University of Ghana,Building,5.038961,-0.095823
+1054,Transport Yard,University of Ghana,Building,5.038998,-0.095914
+1055,Campus Shuttle Terminal,University of Ghana,Building,5.039035,-0.096005
