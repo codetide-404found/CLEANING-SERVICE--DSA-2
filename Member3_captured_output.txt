@@ -1,0 +1,66 @@
+=== DYNAMIC ARRAY RESIZE TRACE (generic integer keys) ===
+
+Starting capacity: 2
+insert #1 -> size=1, capacity=2
+insert #2 -> size=2, capacity=2
+insert #3 -> size=3, capacity=4  <-- RESIZED (2 -> 4)
+insert #4 -> size=4, capacity=4
+insert #5 -> size=5, capacity=8  <-- RESIZED (4 -> 8)
+insert #6 -> size=6, capacity=8
+insert #7 -> size=7, capacity=8
+insert #8 -> size=8, capacity=8
+insert #9 -> size=9, capacity=16  <-- RESIZED (8 -> 16)
+insert #10 -> size=10, capacity=16
+insert #11 -> size=11, capacity=16
+insert #12 -> size=12, capacity=16
+insert #13 -> size=13, capacity=16
+insert #14 -> size=14, capacity=16
+insert #15 -> size=15, capacity=16
+insert #16 -> size=16, capacity=16
+insert #17 -> size=17, capacity=32  <-- RESIZED (16 -> 32)
+insert #18 -> size=18, capacity=32
+insert #19 -> size=19, capacity=32
+insert #20 -> size=20, capacity=32
+
+Final array: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+Final size=20, capacity=32
+
+=== MyLinkedList mid-sequence edit trace ===
+
+Initial: [1, 2, 4]
+After insertAfter(2, 3): [1, 2, 3, 4]
+After remove(1): [2, 3, 4]
+After addFirst(0): [0, 2, 3, 4]
+
+----------------------------------------
+
+Derived initial DynamicArray capacity from index number 22241883: 4 + (22241883 % 5) = 7
+
+=== DYNAMIC ARRAY: full location catalog ===
+Inserted UG-N-01 -> size=1, capacity=7
+Inserted UG-N-02 -> size=2, capacity=7
+Inserted UG-S-01 -> size=3, capacity=7
+Inserted UG-C-01 -> size=4, capacity=7
+Inserted UG-C-02 -> size=5, capacity=7
+Inserted UG-E-01 -> size=6, capacity=7
+Inserted UG-W-01 -> size=7, capacity=7
+Inserted UG-S-02 -> size=8, capacity=14  <-- RESIZED (7 -> 14)
+
+Catalog by index (insertion order, not sorted):
+  [0] UG-N-01 (Balme Library, North Campus)
+  [1] UG-N-02 (Great Hall, North Campus)
+  [2] UG-S-01 (Legon Hall, South Campus)
+  [3] UG-C-01 (Computer Science Dept., Central Campus)
+  [4] UG-C-02 (JQB Lecture Theatre, Central Campus)
+  [5] UG-E-01 (Engineering Block, East Campus)
+  [6] UG-W-01 (Sports Complex, West Campus)
+  [7] UG-S-02 (Volta Hall, South Campus)
+
+=== MYLINKEDLIST: today's cleaning crew route ===
+Initial route: [UG-N-01 (Balme Library, North Campus), UG-S-01 (Legon Hall, South Campus), UG-C-01 (Computer Science Dept., Central Campus)]
+After addFirst(Volta Hall) [urgent, priority 5]: [UG-S-02 (Volta Hall, South Campus), UG-N-01 (Balme Library, North Campus), UG-S-01 (Legon Hall, South Campus), UG-C-01 (Computer Science Dept., Central Campus)]
+After insertAfter(Legon Hall, JQB) [rush job]: [UG-S-02 (Volta Hall, South Campus), UG-N-01 (Balme Library, North Campus), UG-S-01 (Legon Hall, South Campus), UG-C-02 (JQB Lecture Theatre, Central Campus), UG-C-01 (Computer Science Dept., Central Campus)]
+After remove(Computer Science Dept.) [cancelled]: [UG-S-02 (Volta Hall, South Campus), UG-N-01 (Balme Library, North Campus), UG-S-01 (Legon Hall, South Campus), UG-C-02 (JQB Lecture Theatre, Central Campus)]
+
+Final route via iterator: UG-S-02 -> UG-N-01 -> UG-S-01 -> UG-C-02
+Total estimated cleaning time for this route: 265 minutes
