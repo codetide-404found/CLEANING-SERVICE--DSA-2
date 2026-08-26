@@ -59,6 +59,37 @@ public class BinarySearchTree<T extends Comparable<T>> {
     }
 
     // ---------------------------------------------------------
+    // UPDATE
+    // ---------------------------------------------------------
+
+    /**
+     * Updates the stored value for a key that already exists in the tree
+     * (e.g., a location's cleaning priority or estimated time changed, but
+     * its locationId — the field used for comparison/ordering — stays the same).
+     * Does NOT restructure the tree, since ordering is unaffected.
+     *
+     * @param newValue an object that compareTo()-equals an existing key,
+     *                  carrying the new data to store
+     * @return true if a matching node was found and updated, false if no match exists
+     */
+    public boolean update(T newValue) {
+        if (newValue == null) {
+            throw new IllegalArgumentException("Cannot update with null value");
+        }
+        return updateRecursive(root, newValue);
+    }
+
+    private boolean updateRecursive(Node node, T newValue) {
+        if (node == null) return false;
+        int cmp = newValue.compareTo(node.key);
+        if (cmp == 0) {
+            node.key = newValue; // same ordering key, refreshed data
+            return true;
+        }
+        return cmp < 0 ? updateRecursive(node.left, newValue) : updateRecursive(node.right, newValue);
+    }
+
+    // ---------------------------------------------------------
     // SEARCH
     // ---------------------------------------------------------
 

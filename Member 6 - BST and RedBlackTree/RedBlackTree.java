@@ -51,6 +51,37 @@ public class RedBlackTree<T extends Comparable<T>> {
     }
 
     // ---------------------------------------------------------
+    // UPDATE
+    // ---------------------------------------------------------
+
+    /**
+     * Updates the stored value for a key that already exists in the tree
+     * (e.g., a location's cleaning priority changed, but its locationId —
+     * the field used for comparison/ordering — stays the same). No rotations
+     * or recoloring are needed, since ordering and color structure are
+     * unaffected by an in-place value swap.
+     *
+     * @param newValue an object that compareTo()-equals an existing key,
+     *                  carrying the new data to store
+     * @return true if a matching node was found and updated, false if no match exists
+     */
+    public boolean update(T newValue) {
+        if (newValue == null) {
+            throw new IllegalArgumentException("Cannot update with null value");
+        }
+        Node current = root;
+        while (current != null) {
+            int cmp = newValue.compareTo(current.key);
+            if (cmp == 0) {
+                current.key = newValue;
+                return true;
+            }
+            current = (cmp < 0) ? current.left : current.right;
+        }
+        return false;
+    }
+
+    // ---------------------------------------------------------
     // INSERT
     // ---------------------------------------------------------
 
