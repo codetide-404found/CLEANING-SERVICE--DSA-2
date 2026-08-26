@@ -106,31 +106,31 @@ Member 9 can implement `RouteEngine` by wrapping their `Graph` class.
 ## Project Structure
 
 ```
-CLEANING-SERVICE--DSA-2/
-├── src/
-│   ├── main/
-│   │   └── java/                          # Source files (default package)
-│   │       ├── Priority.java
-│   │       ├── RequestStatus.java
-│   │       ├── CleaningRequest.java
-│   │       ├── Heap.java
-│   │       ├── PriorityQueueManager.java
-│   │       ├── RouteEngine.java
-│   │       └── Dispatcher.java
-│   ├── test/
-│   │   └── java/                          # JUnit 5 tests
-│   │       ├── HeapTest.java
-│   │       ├── PriorityQueueManagerTest.java
-│   │       └── DispatcherTest.java
-│   └── demo/
-│       └── java/                          # Manual test runner
-│           └── HeapDispatchDemo.java
-├── lib/                                   # JUnit 5 jars
+Heap-Priority-Queue/
 ├── README.md
-├── (existing team files remain at root)
+└── src/
+    ├── main/
+    │   └── java/                          # Source files (default package)
+    │       ├── Priority.java
+    │       ├── RequestStatus.java
+    │       ├── CleaningRequest.java
+    │       ├── Heap.java
+    │       ├── PriorityQueueManager.java
+    │       ├── RouteEngine.java
+    │       └── Dispatcher.java
+    ├── test/
+    │   └── java/                          # JUnit 5 tests
+    │       ├── HeapTest.java
+    │       ├── PriorityQueueManagerTest.java
+    │       └── DispatcherTest.java
+    └── demo/
+        └── java/                          # Manual test runner
+            └── HeapDispatchDemo.java
 ```
 
 ## How to run
+
+From inside the `Heap-Priority-Queue/` directory:
 
 ### Compile all module files:
 ```bash
