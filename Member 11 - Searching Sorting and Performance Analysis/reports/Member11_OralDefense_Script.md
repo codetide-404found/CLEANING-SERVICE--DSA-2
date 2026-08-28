@@ -51,3 +51,8 @@ If asked by examiners to run live demonstrations:
    ```bash
    java -cp bin EmpiricalAnalysisRunner
    ```
+4. **Run Unified Benchmark Engine (CSV & SQLite Logger)**:
+   ```bash
+   java -cp bin Benchmark
+   ```
+

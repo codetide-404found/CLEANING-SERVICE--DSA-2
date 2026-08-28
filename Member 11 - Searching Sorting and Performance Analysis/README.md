@@ -41,7 +41,10 @@ Member 11 - Searching Sorting and Performance Analysis/
 │   ├── SearchMetrics.java         # Searching comparison & runtime metrics tracker
 │   ├── SortMetrics.java           # Sorting comparison, swap & depth metrics tracker
 │   ├── EmpiricalAnalysisRunner.java # Section 9 empirical benchmark lab runner
+│   ├── Benchmark.java             # Unified benchmark suite (CSV + SQLite run logger)
 │   └── GraphPlotter.java          # SVG & HTML performance chart generator
+├── results/
+│   └── benchmark_results.csv      # CSV export of search, sort & heap benchmarks
 ├── tests/
 │   └── SearchingSortingTestRunner.java # 48 comprehensive unit tests
 ├── trace/
@@ -81,6 +84,12 @@ powershell -Command "$files = Get-ChildItem -Path 'Member 11 - Searching Sorting
 ```bash
 & "C:\Program Files\Java\jdk-26.0.2.1\bin\java.exe" -cp "Member 11 - Searching Sorting and Performance Analysis/bin" EmpiricalAnalysisRunner
 ```
+
+### Step 5: Run Unified Benchmark Suite (CSV Export & SQLite Logging)
+```bash
+& "C:\Program Files\Java\jdk-26.0.2.1\bin\java.exe" -cp "Member 11 - Searching Sorting and Performance Analysis/bin" Benchmark
+```
+
 
 ---
 
